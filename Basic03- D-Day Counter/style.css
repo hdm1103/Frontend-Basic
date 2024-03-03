@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+.start-btn {
+    font-size: 1.3rem; /* 수정: ID가 아닌 클래스로 선택자 변경 */
+}
+
+.d-day-container{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    margin-bottom: 1.6rem;
+}
+
+.d-day-child-container{
+    text-align: center;
+    margin-right: 1rem;
+}
+
+.d-day-child-container span {
+    font-size: 1.3rem;
+}
+
+.target-selector {
+    margin-top: 0.5rem;
+}
